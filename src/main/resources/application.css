@@ -9,6 +9,12 @@
     -fx-alignment: center;
 }
 
+#errorMassege{
+    -fx-font-size: 20;
+    -fx-font-family: "JetBrains Mono";
+    -fx-text-fill: "Red";
+}
+
 .root{
     -fx-background-color: #111111;
 }
