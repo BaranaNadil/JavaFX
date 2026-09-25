@@ -19,14 +19,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         stage.setTitle("Hello JavaFX");
 
         Scene scene = new Scene(root);
 
-        String css = this.getClass().getResource("../../application.css").toExternalForm();
+//        String css = this.getClass().getResource("../../application.css").toExternalForm();
 
-        scene.getStylesheets().add(css);
+//        scene.getStylesheets().add(css);
 
         stage.setScene(scene);
         stage.show();
